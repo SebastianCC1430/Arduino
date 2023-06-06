@@ -1,5 +1,4 @@
-# Arduino
-Basic codes from Arduino.
+# Control de Motorreductores con Puente H y Joystick
 Código para controlar dos motorreductores con Puente H por medio de Arduino UNO. 
 El control se realiza con un Joystick, debido a la versatilidad de este; tiene dos potenciómetros y un pulsador en un solo dispositivo.
 Un potenciómetro controla el eje Y y el otro el eje X, permitiendo movimiento independiente y simúltaneo en los motores.
