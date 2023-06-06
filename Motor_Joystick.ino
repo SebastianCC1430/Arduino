@@ -37,7 +37,7 @@ void loop() {
   Y = map(valorY, 0, 1023, 179, 0);
   if (valorSW == 1) {
     //Cuando se presiona el pulsador, la ejecución de movimiento en los motores se detiene.
-    //Tras una serie de pruebas, se determinó que, para evitar movimientos indeseados cuando. el Joystick no está en movimiento, se debe dar un rango de datos entre 85 y 95 y no se debe dejar solo en 90.
+    //Tras una serie de pruebas, se determinó que, para evitar movimientos indeseados cuando el Joystick no está en movimiento, se debe dar un rango de datos entre 85 y 95 y no se debe dejar solo en 90.
     if (X >= 85 and X <= 95) {
       //    ALTO
       digitalWrite(in1, LOW);
